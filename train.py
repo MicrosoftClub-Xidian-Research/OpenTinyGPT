@@ -5,8 +5,8 @@ import torch.nn.functional as F
 from pathlib import Path
 from tqdm import tqdm
 
-import OpenTinyGPT.config as config
-from OpenTinyGPT.model import GPT
+import config as config
+from model import GPT
 
 random.seed(config.seed)
 torch.manual_seed(config.seed)
